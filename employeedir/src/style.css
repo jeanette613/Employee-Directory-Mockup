@@ -1,0 +1,60 @@
+.App {
+    display: flex;
+    text-align: right;
+}
+
+h1 {
+    border: 3px solid rgb(255, 166, 0);
+    margin: 2px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    border: 3px solid green;
+}
+
+.header {
+    font-size: 14px;
+    padding: 6px;
+    margin: 2px;
+    text-align: center;
+    font-family: sans-serif;
+    border: 3px solid rgb(82, 135, 196);
+}
+
+.listItem {
+    display: flex-start;
+    border: 3px solid red;
+    padding: 5px;
+    margin: 2px;
+}
+
+.list {
+    border: 3px solid mediumorchid;
+    margin: 1px;
+}
+
+.image {
+    display: flex;
+    justify-content: flex-start;
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+    border-radius: 120px;
+}
+
+h2 {
+    display: flex;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+h3 {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: grey;
+}
