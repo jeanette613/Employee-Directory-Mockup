@@ -1,3 +1,3 @@
-export default function EmplList() {
-    return <h1>Empl List</h1>
+export default function EmplList({ children }) {
+    return <div className="list">{children}</div>;
 }

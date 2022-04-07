@@ -8,7 +8,7 @@ export default function App() {
         <div className="App">
             <Routes>
                 <Route path="/homepage" element={<Homepage />} />
-                <Route path="/" element={<EmployeePage />} />
+                <Route path="/employeelist" element={<EmployeePage />} />
             </Routes>
         </div>
     );
