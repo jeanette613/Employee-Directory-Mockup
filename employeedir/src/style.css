@@ -3,8 +3,13 @@
     text-align: right;
 }
 
-h1 {
+.homepage {
     border: 3px solid rgb(255, 166, 0);
+    margin: 2px;
+}
+
+.employeepage {
+    border: 3px solid rgba(127, 57, 7, 0.921);
     margin: 2px;
 }
 
@@ -26,8 +31,10 @@ h1 {
 }
 
 .listItem {
-    display: flex-start;
+    display: flex;
+    justify-content: left;
     border: 3px solid red;
+    min-width: 550px;
     padding: 5px;
     margin: 2px;
 }

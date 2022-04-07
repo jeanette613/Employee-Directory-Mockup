@@ -6,7 +6,7 @@ import "../style.css";
 
 export default function Homepage() {
     return (
-        <div>
+        <div className="homepage">
             <Header />
             <SearchBar />
             <EmpList>

@@ -1,5 +1,15 @@
+import Header from "../components/Header";
+import EmpList from "../components/EmplList";
+import EmpListItem from "../components/EmployeeListItem";
+import "../style.css";
+
 export default function EmployeePage() {
     return (
-        <h1>Employee Page</h1>
-    )
-};
+        <div className="employeepage">
+            <Header />
+            <EmpList>
+                <EmpListItem />
+            </EmpList>
+        </div>
+    );
+}
